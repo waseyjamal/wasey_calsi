@@ -17,8 +17,7 @@ class _MyCalScreenState extends State<MyCalScreen> {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    // var height = size.height;
-    // var width = size.width;
+ 
     return Scaffold(
       body: Container(
         height: size.height,
